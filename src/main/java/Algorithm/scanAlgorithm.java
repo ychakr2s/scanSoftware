@@ -277,7 +277,8 @@ public class scanAlgorithm implements abstractScan {
     /**
      * * This method implement the Steps of the Algorithm Scan
      *
-     * @return*/
+     * @return
+     */
     @Override
     public scanJson executeScanAlgorithm() {
         // This Variable used to compute the Complexity time.
@@ -343,7 +344,7 @@ public class scanAlgorithm implements abstractScan {
         setTimeComplexity(time);
 
         return new scanJson("Scan Algorithm", getOutliers(), getHubs(), getRefinedClusters(getOutputCluster()), getRefinedClusters(getOutputCluster()).length,
-                generalCluster(getOutputCluster()), getTimeComplexity());
+                getTimeComplexity());
     }
 
     public String toString() {

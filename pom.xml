@@ -23,7 +23,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.3</version>
                 <configuration>
-                    <mainClass>main.Main</mainClass>
+                    <mainClass>output.Main</mainClass>
                 </configuration>
             </plugin>
             <plugin>

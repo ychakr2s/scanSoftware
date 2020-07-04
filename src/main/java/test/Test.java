@@ -21,9 +21,6 @@ public class Test {
         readGraph rd = new readGraph();
         graph gr = rd.factoryGraph(filename);
 
-        // print the Graph
-        System.out.println(gr.toString());
-
         scanAlgorithm sc = new scanAlgorithm(gr, 0.6f, 3f);
 
         // Execute the Algorithm Scan

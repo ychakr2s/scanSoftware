@@ -20,12 +20,12 @@ public class selfGeneratedCreator implements GraphCreator {
             String line = reader.readLine();
             while (line != null) {
                 String[] splited = line.split("\\s+");
+
                 if (splited[0].equals("p")) {
                     gr = new graph(Integer.parseInt(splited[1]));
                     gr.setEdge(Integer.parseInt(splited[2]));
-                } else if (splited[0].equals("")) {
-                    break;
-                } else {
+                }
+                if (isNumeric(splited[0])) {
                     assert gr != null;
                     gr.addEdge(Integer.parseInt(splited[0]), Integer.parseInt(splited[1]));
                 }
@@ -40,4 +40,14 @@ public class selfGeneratedCreator implements GraphCreator {
         }
         return gr;
     }
+
+    public boolean isNumeric(String str) {
+        try {
+            Double.parseDouble(str);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+
 }

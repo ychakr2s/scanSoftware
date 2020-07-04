@@ -1,8 +1,9 @@
 package ReadFile;
 
 
-        import Graph.graph;
+import Graph.graph;
 
 public interface GraphCreator {
+
     public graph factoryGraph(String filename);
 }

@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7568c3df-57ef-49d6-9482-44e38cf979f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Input_Files/inputGraph.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/TestGraphSoftware/testGraph.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Input_Files/testGraph.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Input_Files/testGraph.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Output_Files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Output_Files/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReadFile/GraphCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadFile/GraphCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReadFile/readGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadFile/readGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReadFile/selfGeneratedCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadFile/selfGeneratedCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReadFile/readGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReadFile/readGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReadFile/selfGeneratedCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReadFile/selfGeneratedCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Input_Files/testGraph.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +239,7 @@
       <workItem from="1593340094745" duration="16033000" />
       <workItem from="1593449963735" duration="15683000" />
       <workItem from="1593639007367" duration="3100000" />
-      <workItem from="1593851978569" duration="11024000" />
+      <workItem from="1593851978569" duration="11565000" />
     </task>
     <servers />
   </component>
